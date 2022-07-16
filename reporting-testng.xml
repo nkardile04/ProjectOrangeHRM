@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			 <class name="com.orangeHRM.testcases.TC001_LogIn" /> 
+			<!-- <class name="com.orangeHRM.testcases.TC002_logIn_DDT" />  -->
+			<!-- <class name="com.orangeHRM.testcases.TC003_SearchExistingUser" />  -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
